@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var x =prompt(" Nhập điểm kiểm tra: ");
+    var y =prompt("Nhập điểm thi giữa kì: ");
+    var z =prompt("Nhập điểm thi cuối kì: ");
+    var DTB = ((x+y+z)/3);
+    if (x>10 || y>10 || z>10 || x<0 || y<0 || z<0)
+        alert("nhập lại");
+          else if (0 < DTB <=5)
+            document.write("Không Đạt");
+          else if (5 < DTB <= 7.5)
+            document.write("Đạt");
+          else if (7.5 < DTB <= 8.5)
+            document.write("Khá");
+             else (8.5 < DTB < 10)
+                document.write("Tốt");
+
+</script>
+</body>
+</html>
